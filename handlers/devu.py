@@ -12,7 +12,7 @@ from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME,BOT_IM
 from cache.stuffs.string import (t1, t2, t3, t4, t5)
 from cache.stuffs.string2 import (button1, button2, button3, button4)
 
-@bot.on_message(filters.command("start"))
+@bot.on_message(filters.command("vcstart"))
 def start_(bot, message):
     message.reply_photo(
         photo=BOT_IMG,
@@ -32,7 +32,7 @@ def help_(bot, message):
 
 @bot.on_callback_query()
 def callback_query(Client, callback: CallbackQuery):
-    if callback.data == "help_":
+    if callback.data == "vchelp_":
         callback.answer('Open Help Menu')
         callback.edit_message_text(
             t2.format(callback.from_user.mention, SUPPORT_GROUP),
