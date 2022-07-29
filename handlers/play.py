@@ -165,7 +165,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://te.legra.ph/file/9012a958e07362727ae19.jpg"
+        thumb_name = "https://telegra.ph/file/c66d423374e1139f79262.jpg"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Locally added"
@@ -218,8 +218,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Ronin_Fighters_Fd"),
+                            text="add°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥me",
+                            url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
                             url=f"https://t.me/RoninXJin_updates"),
@@ -232,15 +232,15 @@ async def play(_, message: Message):
     
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://te.legra.ph/file/9012a958e07362727ae19.jpg"
+            thumb_name = "https://telegra.ph/file/c66d423374e1139f79262.jpg"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Ronin_Fighters_Fd"),
+                            text="add°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥me",
+                            url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
                             url=f"https://t.me/RoninXJin_updates"),
@@ -298,8 +298,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Ronin_Fighters_Fd"),
+                            text="add°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥me",
+                            url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
                             url=f"https://t.me/RoninXJin_updates"),
