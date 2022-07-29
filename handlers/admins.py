@@ -20,7 +20,7 @@ from pyrogram.types import (CallbackQuery, InlineKeyboardButton,
 
 BUTTON = [
     [
-        InlineKeyboardButton(text="Support", url=f"https://t.me/{SUPPORT_GROUP}"),
+        InlineKeyboardButton(text="ADD💖ME", url=f"https://t.me/https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
         InlineKeyboardButton(text="🗑️Close", callback_data="close_"),
     ],
 ]
