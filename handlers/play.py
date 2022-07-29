@@ -174,8 +174,8 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="Support",
-                            url=f"https://t.me/Ronin_Fighters_Fd"),
+                            text="Add°̥̥̥̥̥̥̥̥ω°̥̥̥̥̥̥̥̥me",
+                            url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
                             url=f"https://t.me/RoninXJin_updates"),
