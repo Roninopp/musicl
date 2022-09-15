@@ -178,7 +178,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/RoninXJin_updates"),
+                            url=f"https://t.me/IMPERIAL_ARENA"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -222,7 +222,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/RoninXJin_updates"),
+                            url=f"https://t.me/IMPERIAL_ARENA"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -243,7 +243,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/RoninXJin_updates"),
+                            url=f"https://t.me/IMPERIAL_ARENA"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -302,7 +302,7 @@ async def play(_, message: Message):
                             url=f"https://t.me/FANTASTICFIGHTERBOT?startgroup=new"),
                     InlineKeyboardButton(
                             text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/RoninXJin_updates"),
+                            url=f"https://t.me/IMPERIAL_ARENA"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -326,7 +326,7 @@ async def play(_, message: Message):
         position = await queues.put(chat_id, file=file_path)      
         await message.reply_photo(
             photo="final.png",
-            caption="****ᴏᴋᴋ, ʏᴏᴜʀ sᴏɴɢ ɪᴢ ᴀᴅᴅᴇᴅ ɪɴ ᴛʜᴇ ǫᴜᴇᴜᴇ🥀💖 \n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ: {} \nᴘᴏsɪᴛɪᴏɴ :-** {}**".format(usrid, position),
+            caption="****ᴏᴋᴋ, ʏᴏᴜʀ sᴏɴɢ ɪs ᴀᴅᴅᴇᴅ ɪɴ ᴛʜᴇ ǫᴜᴇᴜᴇ💖😉 \n\nʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ: {} \nᴘᴏsɪᴛɪᴏɴ :-** {}**".format(usrid, position),
             reply_markup=keyboard,
         )
         await message.delete()
